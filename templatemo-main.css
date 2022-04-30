@@ -6,6 +6,7 @@ http://www.templatemo.com/tm-512-moonlight
 
 */
 
+
 @keyframes seq-preloader {
   50% {
     opacity: 1;
@@ -843,7 +844,5 @@ nav a:hover::before {
 	  	padding: 15px 20px;
 	}
 }
-
-
 
 
