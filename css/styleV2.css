@@ -1,5 +1,5 @@
 .slides {
-    width: 800vw;
+    width: 1000vw;
 }
 
 
@@ -12,7 +12,15 @@
   .slides .slide:nth-child(8) {
     background-image: url(../img/bg/fifth_bg.jpg);
   }
-
+  .slides .slide:nth-child(9) {
+    background-image: url(../img/bg/fifth_bg.jpg);
+  }
+  .slides .slide:nth-child(10) {
+    background-image: url(../img/bg/fifth_bg.jpg);
+  }
+  .slides .slide:nth-child(11) {
+    background-image: url(../img/bg/fifth_bg.jpg);
+  }
 
 .project-content {
 	text-align: left;
