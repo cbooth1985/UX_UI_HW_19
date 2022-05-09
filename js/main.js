@@ -49,6 +49,20 @@ jQuery(document).ready(function($) {
             showSlide(diff); // show that slide
             e.preventDefault();
         });
+
+        // Project click
+        $('a.project , .main-btn a').click(function(e) {
+            // When link clicked, find slide it points to
+            var newslide = parseInt($(this).attr('href')[1]);
+            // find how far it is from current slide
+            var diff = newslide - currSlide - 1;
+            showSlide(diff); // show that slide
+            e.preventDefault();
+
+            $('nav a.active').removeClass('active');
+            $($('a.projects')).addClass('active');
+        });
+        //  Project click
       
         $(window).resize(function(){
           // Keep current slide to left of window on resize
