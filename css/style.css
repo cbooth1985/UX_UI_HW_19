@@ -1,0 +1,13 @@
+.modal-backdrop.in{
+    opacity: 0.8!important;
+}
+.modal-lg{
+    width: 80%;
+}
+.modal-dialog{
+    height: 90vh !important;
+}
+.modal-body{
+    max-height: 88vh;
+    overflow-x: auto;
+}
